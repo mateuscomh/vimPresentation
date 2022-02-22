@@ -1,0 +1,6 @@
+Fala pessoal tranquilo?
+
+Vamos lá!
+===== INTRO ====
+Hoje quero apresentar pra vocês o vim e o  poder do uso de forma que ele pode impactar e muito na sua produtividade.
+
