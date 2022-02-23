@@ -6,13 +6,18 @@ Brainstorm palestra vim
 [] Mapa mental Xmind
 [x]Caracteres em tela 
 [] Slides shell / Markdown
-[] Repo para Apresentação
+[x] Repo para Apresentação
 
 ======
 Introdução
 - Historia
 - Objetivo palestra
 - Reflexão sobre relação mouse/teclado
+
+- Vantagens
+ Comandos poderosos
+ Altamente customizavel
+ Presente em praticamente todas distro linux
 
 Prática
 - Comandos simples
@@ -32,6 +37,7 @@ Conclusão
 
 VIM cheatsheet
 https://devhints.io/vim
+https://vim.rtorr.com/
 
 Vim adventures
 https://vim-adventures.com/
