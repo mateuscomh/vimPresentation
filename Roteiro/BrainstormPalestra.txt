@@ -1,0 +1,47 @@
+Brainstorm palestra vim
+
+
+=== Apresentação ===
+[] Terminal com VIM
+[] Mapa mental Xmind
+[x]Caracteres em tela 
+[] Slides shell / Markdown
+[x] Repo para Apresentação
+
+======
+Introdução
+- Historia
+- Objetivo palestra
+- Reflexão sobre relação mouse/teclado
+
+- Vantagens
+ Comandos poderosos
+ Altamente customizavel
+ Presente em praticamente todas distro linux
+
+Prática
+- Comandos simples
+  - Modos de utilização
+  - Saidas do vim
+  - Comandos simples
+  - Comandos compostos
+
+Conclusão
+- Exibição Plugins
+- Referencial
+- Indicação livro rapido devagar
+- Plugin VS Code
+
+
+=== Referencial ===
+
+VIM cheatsheet
+https://devhints.io/vim
+https://vim.rtorr.com/
+
+Vim adventures
+https://vim-adventures.com/
+
+Vim fandom
+https://vim.fandom.com/wiki/Vim_Tips_Wiki
+
