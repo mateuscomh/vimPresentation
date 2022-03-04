@@ -20,8 +20,23 @@ normal mode - é o estado default do vi/vim e apesar de ser passado rapidamente 
 Podemos muitas vezes deixar de reescrever textos com simples comandos e combinacoes de teclas, e é aqui que a coisa começa a ficar ainda mais interessante. O que temos aqui agora nada mais é que um artista olhando para o seu quadro em branco com a imaginação de onde se quer chegar e agora podemos refletir no vim desta forma.
 
 -
-# algumas teclas de atalho
--
+# Alterações entre os modos
+Para cada módulo do vim, o teclado assume uma função diferente
+
+Exemplos de teclas do modo inserção:
+
+i e I
+o e O
+a e A
+s e S
+C
+Teclas do modo visual
+
+v, V, Ctrl-v, mouse*
+
+Tecla do modo de comando
+:
+
 # interpretacao de teclas
 -
 algumas combinacoes de teclas
