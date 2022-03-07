@@ -45,3 +45,8 @@ https://vim-adventures.com/
 Vim fandom
 https://vim.fandom.com/wiki/Vim_Tips_Wiki
 
+PlugInstall
+https://github.com/junegunn/vim-Plugins
+
+Vim Awsome Plugins
+https://vimawesome.com/
