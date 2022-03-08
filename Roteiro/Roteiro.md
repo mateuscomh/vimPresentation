@@ -21,6 +21,7 @@ Podemos muitas vezes deixar de reescrever textos com simples comandos e combinac
 
 -
 # algumas teclas de atalho
+- split window :vs :vh
 -
 # interpretacao de teclas
 -
