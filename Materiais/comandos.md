@@ -11,6 +11,7 @@
 | INSERT (outra linha)      | `o`        | Inicia a inserção de texto em nova linha abaixo                |
 | INSERT (início)           | `I`        | Inicia a inserção de texto no início da linha                  |
 | INSERT (fim)              | `A`        | Inicia a inserção de texto no fim da linha                     |
+| INSERT (cursor)           | `s/S`      | Inserção substituindo o caracte abaixo do cursor ou apaga toda linha e substitui|
 | INSERT (outra linha aqui) | `O`        | Move linha atual para baixo e inicia a inserção de texto       |
 | VISUAL                    | `v`        | Inicia o modo de seleção de texto                              |
 | VISUAL (por linhas)       | `V`        | Inicia o modo de seleção de linhas inteiras                    |
