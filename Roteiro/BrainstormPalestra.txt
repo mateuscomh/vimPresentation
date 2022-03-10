@@ -50,3 +50,6 @@ https://github.com/junegunn/vim-Plugins
 
 Vim Awsome Plugins
 https://vimawesome.com/
+
+Vim tutor
+$Vimtutor

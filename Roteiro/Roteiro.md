@@ -31,12 +31,13 @@ xxG vai para a linha ou com :XX
 gi para voltar ao ultimo ponto de inserção
 Ctrl+o volta para a ultima linha
 Ctrl+i avanca para o salto
-
+. Repetir a ultima acao
 help cursor-motions
 # algumas teclas de atalho
 - split window :vs :vh
 -
 # interpretacao de teclas
+
  Depois de dominado o conceito inicial de como percorrer dentro do vim, é hora de dar alguns passos adiante
 algumas combinacoes de teclas, nesse momento a curva de aprendizado começa a seguir o que seria uma pequena ladeira e não mais uma serra. Digo isso pois entendendo parte do conceito que está por trás de cada ação a combinação se fará muito útil. 
 Para mim depois de algum tempo passou a fazer um melhor sentido e quero agora compartilhar com vocês.
@@ -44,9 +45,14 @@ O modo normal do vim que aceita os vários comandos como saltar, deletar caractr
 Que podem ser: QUANTIDADE | AÇÃO | OBJETIVO
 cit ou 5yy ou 100I (texto), etc
 
+
 alguns modos e comandos
 -
+Registradores
+
 o arquivo vimrc
 -
+crie um controle de versao do seu arquivo
 
+meu github
 
