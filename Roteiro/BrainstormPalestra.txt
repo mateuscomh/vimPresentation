@@ -53,3 +53,7 @@ https://vimawesome.com/
 
 Vim tutor
 $Vimtutor
+
+## Conteudo adicional
+Fabio Akita, coceira cerebral, sobre teclado e ergonomia
+https://www.youtube.com/watch?v=78aw1muYWQM
