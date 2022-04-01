@@ -3,7 +3,7 @@ Brainstorm palestra vim
 
 === Apresentação ===
 [] Terminal com VIM
-[] Mapa mental Xmind
+[x] Mapa mental Xmind
 [x]Caracteres em tela 
 [] Slides shell / Markdown
 [x] Repo para Apresentação
