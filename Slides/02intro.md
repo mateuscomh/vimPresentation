@@ -6,8 +6,4 @@
 
 - O que VI?
 
-- Não pratique no trabalho
-
-- VIM como seu aliado diario
--   Observabilidade própria
 
