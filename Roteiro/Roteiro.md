@@ -112,15 +112,16 @@ Inserir 10 vezes a palavra hello world!  10 i/a hello world
 Inserir 20 linhas iniciando com " - 20 o "
 Copiar 5 linhas abaixo
 
-Deletar 3 palavras do cursor pra tras 3db
+3db Deletar 3 palavras do cursor pra tras 3db
+
+cw Deletar uma palavra e já substituir
 
 
-cit ou 5yy ou 100I (texto), etc
+cit
+di(
 
 
-alguns modos e comandos
 
-cit ou 5yy ou 100I (texto), etc
 
 
 alguns modos e comandos
