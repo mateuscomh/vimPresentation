@@ -1,8 +1,12 @@
-# Capa / Apresentação
+# Olá a todos 
 
-## Vim de produtividade
+## VIM de produtividade
 
 <br>
 
 Use @ work, use anywere...
 ___
+<br>
+
+_Matheus Martins_
+
