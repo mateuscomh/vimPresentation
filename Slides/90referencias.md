@@ -25,7 +25,7 @@ Biblioteca de plugins do VIM
 
 # Vim tutor
 Ajuda do próprio VIM na jornada de aprendizado 
-:vimtutor
+$vimtutor
 
 
 # Upcase 
