@@ -128,6 +128,8 @@ Pesquisa e substituição
 
 R maisculo, ideal para traduzir textos voce mesmo
 
+Control+Y para repetir a linha de cima
+
 Pesquisa rápida em arquivo com / (podendo usar o :HLsearch) n/N
 
 :hi search ctermbg=grey ctermfg=blue
