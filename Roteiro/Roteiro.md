@@ -117,12 +117,17 @@ Copiar 5 linhas abaixo
 cw Deletar uma palavra e já substituir
 
 EXEMPLO CÓDIGO HTML
-cit
+mudar a tag ( cit )
+apagar até = ( dt= )
 di(
 
 SLIDE 04 \/
 
 Pesquisa e substituição
+
+
+R maisculo, ideal para traduzir textos voce mesmo
+
 Pesquisa rápida em arquivo com / (podendo usar o :HLsearch) n/N
 
 :hi search ctermbg=grey ctermfg=blue
