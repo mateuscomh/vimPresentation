@@ -75,17 +75,18 @@ Agora antes de seguir aqui no VIM, uma coisa que sempre ouvi do pessoal e até m
 
 gg / G Inicio e fim de arquivo
 xxG vai para a linha ou com :XX
+50% salta para meio do arquivo
 0, ^, $ posicao do cursor
+e/E,b/B Salta inicio e fim de palavras
 { } Salta entre parágrafos
 [ ] Salta entre classes4
 ( ) Salta entre frases
 H,M,L salta na página atual para início meio e fim
+zt, zz, zb Altera a posico de tela
 % para saltar entre métodos --- Combinado com outros comandos (delecao)
-50% salta para meio do arquivo
 gi para voltar ao ultimo ponto de inserção
 Ctrl+o volta para a ultima linha
 Ctrl+i avanca para o salto
-. Repetir a ultima acao
 help cursor-motions
 
 Agora uma passada pelo modo visual, pode muitas vezes parecer pouco interessante, mas ele tem várias funcionalidades que permitem o teclado e o cursor de Navegação de texto assumirem um papel semelhante ao mouse, neste modo  permite selecionar o texto através de linhas, colunas, edição compostas, deleções, etc.
@@ -107,6 +108,9 @@ Modo inserção, aqui nada de diferente dos demais editores, é o modo de digita
 [m salta entre métodos
 J - Unir a frase na linha corrente
 Regex com ^,0,$
+~ Inverte o tamanho do caracter
+guu/gUU muda a linha corrente para maiusculo/minusculo 
+. Repetir a ultima acao
 zz,zb,zt - ajustar a centralizacao que o VIM exibe
 Diferença entre i/I a/A o/O 
 u/U Undo e reverter as mudancas na linhas
