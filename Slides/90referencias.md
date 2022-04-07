@@ -1,8 +1,9 @@
-=== Referencial ===
+# Referencial
+---
 
 # VIM cheatsheets
-<https://devhints.io/vim>
-<https://vim.rtorr.com>
+https://devhints.io/vim
+https://vim.rtorr.com
 
 # Vim adventures
 Jogo interativo do VIM 

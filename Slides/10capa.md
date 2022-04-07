@@ -1,12 +1,10 @@
 # Olá a todos 
 
-## VIM de produtividade
+### VIM de produtividade
+___
 
-<br>
 
 Use @ work, use anywere...
-___
-<br>
 
 _Matheus Martins_
 
