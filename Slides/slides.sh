@@ -21,10 +21,10 @@
 
 # options ---------------------------------------------------------------------
 
-global_auto=5
+global_auto=0
 show_pause_indicator=0
 show_slide_counter=1
-global_editor=nano
+global_editor=vim
 
 # if [[ -f ~/.slideshellrc ]]; then
 #     . ~/.slideshellrc
