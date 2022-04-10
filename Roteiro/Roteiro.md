@@ -68,16 +68,16 @@ Podemos muitas vezes deixar de reescrever textos com simples comandos e combinac
 Agora antes de seguir aqui no VIM, uma coisa que sempre ouvi do pessoal e até mesmo eu já passei por isso (quem nunca né) que na verdade é como sair do VIM? Então vou mostrar, existem algumas formas, nenhumas seguem um padrão de apenas sair com EXIT.
 
 
-
 ## Navegação:
 (EXEMPLO ABRIR O LOREM)
 
 
+h,j,k,l Importancia da navegacao 
 gg / G Inicio e fim de arquivo
 xxG vai para a linha ou com :XX
 50% salta para meio do arquivo
 0, ^, $ posicao do cursor
-e/E,b/B Salta inicio e fim de palavras
+w/W,e/E,b/B Salta inicio e fim de palavras
 { } Salta entre parágrafos
 [ ] Salta entre classes4
 ( ) Salta entre frases
@@ -123,6 +123,7 @@ Control+r redo
 - split window :vs :vh
 :set number
 :set relative number
+:-16,-10co. Copiar o trecho acima aqui 
 :syntax on
 
 -
@@ -153,9 +154,11 @@ cw Deletar uma palavra e já substituir
 
 EXEMPLO CÓDIGO HTML
 
-mudar a tag ( cit )
+mudar dentro da tag ( cit )
+mudar antes da tag ou palavra ( ct. )
 apagar até = ( dt= )
 di(
+df. delete ao encontra .
 
 SLIDE 04 \/
 
