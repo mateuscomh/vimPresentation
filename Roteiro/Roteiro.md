@@ -46,8 +46,8 @@ SLIDE 03 \/
 -
 # Modos de operacao VIM
 
-Agora chega de conversa e vou tentar mostrar um pouco do que já dá pra fazer. E um novo disclaimer aqui e reforço, não quero ensinar, muito menos que decorem, quero apenas que entendam a minha mensagem do VIM com produtividade e possam tentar aplica-los para somar ao dia a dia de vocês, então sem decoreba, eu recomendo que treinem o vim até mesmo fora do trabalho para que não se torne uma experiencia frustrante já que você precisa se manter produtivo e eu acho que também tira um pouco da diversão, até mesmo porque a curva de aprendizado é grande principalmente no começo, e certamente haverá momentos que é sim melhor pegar um mouse e clicar do que tentar lembrar um miserável comando. 
-Outra dica que já passo por hora é que não tentem aprender tudo de uma vez, tentem ir colocando em prática cada nova funcionalidade até que ela esteja na sua memória muscular, não tentem aprender várias coisas de uma vez. Pense nesse aprendizado como andar de bicicleta, no começo é o foco em ter o equilíbrio até chegar o ponto da autonomia de ir do ponto X ao ponto Y sem pensar em se manter equilibrado mas sim de performar e chegar até o destino. Etnão minha dica é, tentem ir a cada funcionalidade colocando em prática até aquilo se tornar natural, pois eu acredito que por mais old school que o VIM seja, ele ainda vai sobreviver e certamente vai se fazer presente por muito tempo.
+Agora chega de conversa e vou tentar mostrar um pouco do que já dá pra fazer. E um novo disclaimer aqui e reforço, não quero ensinar, muito menos que decorem, quero apenas que entendam a minha mensagem do VIM com produtividade e possam tentar aplica-las para somar ao dia a dia de vocês, então sem decoreba, eu recomendo que treinem o vim até mesmo fora do trabalho para que não se torne uma experiencia frustrante já que você precisa se manter produtivo e eu acho que também tira um pouco da diversão, até mesmo porque a curva de aprendizado é grande principalmente no começo, e certamente haverá momentos que é sim melhor pegar um mouse e clicar ou repetir várias vezes uma tecla, do que tentar lembrar um miserável comando. 
+Outra dica que já passo por hora é que não tentem aprender tudo de uma vez, tentem ir colocando em prática cada nova funcionalidade até que ela esteja na sua memória muscular, não tentem aprender várias coisas de uma vez. Pense nesse aprendizado como andar de bicicleta, no começo é o foco em ter o equilíbrio até chegar o ponto da autonomia de ir do ponto X ao ponto Y sem pensar em se manter equilibrado mas sim de performar e chegar até o destino. Então minha dica é, tentem ir a cada funcionalidade colocando em prática até aquilo se tornar natural, pois eu acredito que por mais old school que o VIM seja, ele ainda vai sobreviver e certamente vai se fazer presente por muito tempo.
 E antes que me julguem dizendo que no VSCode é melhor, o que já quero mostrar nesse começo que todo o conteúdo aqui preparei pensando também nas IDEs que já estamos acostumados e que assim possamos pensar na possibilidade de unir o melhor dos dois mundos. Já que existem plugins tanto pro VSCode como outras IDEs para que seja usado todos os comandos do VIM nos seus modos de operação dentro dele.
 
 (EXEMPLO ABRIR O PRÓPRIO VSCODE)
@@ -83,7 +83,6 @@ w/W,e/E,b/B Salta inicio e fim de palavras
 ( ) Salta entre frases
 H,M,L salta na página atual para início meio e fim
 zt, zz, zb Altera a posico de tela
-% para saltar entre métodos --- Combinado com outros comandos (delecao)
 gi para voltar ao ultimo ponto de inserção
 Ctrl+o volta para a ultima linha
 Ctrl+i avanca para o salto
@@ -106,12 +105,12 @@ Modo inserção, aqui nada de diferente dos demais editores, é o modo de digita
 
 ## Edição
 [m salta entre métodos
+% para saltar entre métodos --- Combinado com outros comandos (delecao)
 J - Unir a frase na linha corrente
 Regex com ^,0,$
 ~ Inverte o tamanho do caracter
 guu/gUU muda a linha corrente para maiusculo/minusculo 
 . Repetir a ultima acao
-zz,zb,zt - ajustar a centralizacao que o VIM exibe
 Diferença entre i/I a/A o/O 
 u/U Undo e reverter as mudancas na linhas
 Control+r redo
@@ -121,6 +120,7 @@ Control+r redo
 #comando
 
 - split window :vs :vh
+    vs swagger.json
 :set number
 :set relative number
 :-16,-10co. Copiar o trecho acima aqui 
@@ -129,7 +129,6 @@ Control+r redo
 -
 # interpretacao de teclas
 
-SLIDE 04 \/
 
  Depois de dominado o conceito inicial de como percorrer dentro do VIM, é hora de dar alguns passos adiante algumas combinacoes de teclas, nesse momento a curva de aprendizado começa a seguir o que seria uma pequena ladeira e não mais uma serra. Digo isso pois entendendo parte do conceito que está por trás de cada ação a combinação se fará muito útil. Com isso, na minha opniao, é muito importante vocês terem uma base legal no aprendizado para replicar sem dificuldades daqui por diante. Para mim o que vou falar em breve depois de algum tempo passou a fazer um melhor sentido no meu aprendizado e quero agora compartilhar com vocês.
 O modo normal do VIM como mostrei  antes, aceita os vários comandos como saltar, deletar caractres, copiar, etc aceita conjugado algumas ações que podem ser consideradas as ordens para o VIM ou conversa com o VIM, e essas ordens podem ser facilmente interpretadas pela seguinte sintaxe de ordem de comando para o VIM:
@@ -172,8 +171,11 @@ Pesquisa rápida em arquivo com / (podendo usar o :HLsearch) n/N
 
 
 EXEMPLO NXGIX.Log
+
+:! comando para executar sem sair do vim
 :g/HEAD/d   apagar as linhas com HEAD
 -pegar apenas o IP
+-modo visual selecionar linhas
 :normal WhD 
 -organizar
 :sort 
@@ -181,19 +183,27 @@ EXEMPLO NXGIX.Log
 modo visual
 :!uniq -c
 modo visual
-!sort -n
+!sort -n | usar -r
+
+ABRIR swagger.yml
 
 
 :s/a/A altera a primeira instancia e substitui
-:%s/todas/TODAS/g mostrar tambem gc controly control+e
-:s/\<apenas\>/APENAS/gi
+:%s/todas/TODAS/g mostrar tambem gc 
+:s/\<através\>/por meio/gcI USAR O ATRAVES NA PESQUISA COM CASE SENSITIVE
 :29,35 s/palavra/PALAVRA/gi
-:! comando para executar sem sair do vim
 
-:0 read arquivo (usar o ls para demonstrar)
+SAIR do swagger
+
+
+:0 read arquivo ls -lah (usar o ls para demonstrar)
 :r! ls (mostrar os exemplos de grep apenas diretorios)
 
 ## Macros
+
+
+ABRIR LOREM 
+
 
 Marcas
 ma,mb,mc,mw
@@ -209,6 +219,13 @@ Arquivo JSON exemplo
 Mostrar incrementos com Macros
 Simular o mesmo arquivo para transformar em JSON
 { “id”: 1, “name”: “fruta” },
+-Posicao 0
+-Inserir
+-W maiusculo
+-a minusculo
+-inicio da linha
+-linha debaixo
+-q
 
 
 
