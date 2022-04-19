@@ -133,23 +133,24 @@ Control+r redo
  Depois de dominado o conceito inicial de como percorrer dentro do VIM, é hora de dar alguns passos adiante algumas combinacoes de teclas, nesse momento a curva de aprendizado começa a seguir o que seria uma pequena ladeira e não mais uma serra. Digo isso pois entendendo parte do conceito que está por trás de cada ação a combinação se fará muito útil. Com isso, na minha opniao, é muito importante vocês terem uma base legal no aprendizado para replicar sem dificuldades daqui por diante. Para mim o que vou falar em breve depois de algum tempo passou a fazer um melhor sentido no meu aprendizado e quero agora compartilhar com vocês.
 O modo normal do VIM como mostrei  antes, aceita os vários comandos como saltar, deletar caractres, copiar, etc aceita conjugado algumas ações que podem ser consideradas as ordens para o VIM ou conversa com o VIM, e essas ordens podem ser facilmente interpretadas pela seguinte sintaxe de ordem de comando para o VIM:
 
-QUANTIDADE | AÇÃO | OBJETIVO
 
 EXEMPLO VIM ARQUIVO CODE.JS
 
 
 Exemplo clássio que seria adicionar comentários em várias linhas de texto, como seria uma forma mais produtiva de fazer isso no VIM? Hoje eu executo da seguinte forma:
 
-EXEMPLO Modo visual block, selecionar as linhas, Shift + i, #, ESC e voilá, o VisualCode faz isso? Claro que faz, não quero criar treta aqui, mas imaginem agilizar isso em um acesso remoto ao servidor, lembrem-se do caso da câmera e o carro na rua.
+EXEMPLO Modo visual block Control+V, selecionar as linhas da funcao com ) , Shift + i, #, ESC e voilá, o VisualCode faz isso? Claro que faz, não quero criar treta aqui, mas imaginem agilizar isso em um acesso remoto ao servidor 
 
 Ai agora vamos agora apenas trabalhar com a quantidade: Todos os comandos que acabamos de passar executam uma tarefa ou leva a gente para algum lugar no arquivo, logo muitas dessas podem ser quantificadas e o VIM fazer o trabalho da repetição:
-Inserir 10 vezes a palavra hello world!  10 i/a hello world
 Inserir 20 linhas iniciando com " - 20 o "
+Inserir 10 vezes a palavra hello world!  10 i/a hello world
 Copiar 5 linhas abaixo
 
 3db Deletar 3 palavras do cursor pra tras 3db
 
 cw Deletar uma palavra e já substituir
+
+QUANTIDADE | AÇÃO | OBJETIVO
 
 EXEMPLO CÓDIGO HTML
 
