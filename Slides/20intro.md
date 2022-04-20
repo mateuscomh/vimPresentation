@@ -1,7 +1,7 @@
 # Intro
 ---
 
-- VIM de onde???
+- VIM de onde?
 
 
 - Porque VIM?

@@ -11,14 +11,14 @@ INTRO
 
 SLIDE 02 \/
 
-Hoje quero apresentar pra vocês o vim e o poder de seu uso sob um olhar de que ele possa enriquecer e impactar e muito na nossa produtividade, não só no dia a dia como também ele possa se tornar até mesmo um a softskill melhorando até a nossa interação com o hardware.
+Hoje quero apresentar pra vocês o VIM e o poder de seu uso sob um olhar de que ele possa enriquecer e impactar e muito na nossa produtividade, não só no dia a dia como também ele possa se tornar até mesmo um meio para mas em uso de qualquer sistema, na inteção de nos permitir maior velocidade e intimidade com aquilo que estamos lidando.
 
 O trabalho da gente muitas vezes é repetitivo por natureza, incluindo nesta tarefa, estamos sempre fazendo pequenas mudanças em vários lugares, servidores, arquivos ou até mesmo movimentar em volta de algum documento ou código e nisso usamos de vários padrões de escrita, repetimos muitas teclas e se passarmos a ter uma observação na nossa ergonomia fazemos constantemente o movimento de mãos no teclado e posteriomente no mouse.
 
-O VIM é otimizado para esta repetição, ele é eficiente em registrar ações recentes. Aqui e nesse ponto queria muito reforçar que a minha intenção é mostrar que com a interpretação do VIM não apenas como um simples e leve editor de texto, mas sim na forma em que ele trabalha e interpreta em conjunto do aprendizado de comandos (e quando digo aprendizado de comandos, não é decoreba, e sim ter a memória muscular desses caminhos, aliados ao saber "conversar com o VIM"), a sua produtividade pode acelerar de forma muito significativa e é esse o objetivo dessa nossa talk de hoje.
-Logo, meu pensamento e a semente que gostaria de deixar para vocês é de um gestor que tive uma vez de que o investimento no aprendizado será sempre um investimento em vocês mesmo. E isso se tornou latente pra mim desde então me fazendo abrir os olhos.
+O VIM é otimizado para esta repetição, ele é eficiente em registrar ações recentes. Aqui e nesse ponto queria muito reforçar que a minha intenção é mostrar que com a interpretação do VIM não apenas como um simples e leve editor de texto, mas sim na forma em que ele trabalha e interpreta em conjunto do aprendizado de comandos (e quando digo aprendizado de comandos, não é decoreba, e sim termos a capacidade de incluir na memória muscular esses caminhos, aliados ao saber "conversar com o VIM"), a sua produtividade pode acelerar de forma muito significativa e é esse o objetivo dessa nossa talk de hoje.
+Logo, meu pensamento e a semente que gostaria de deixar para vocês é inclusive uma fala de um gestor que tive uma vez de que o investimento no aprendizado é e  será sempre um investimento em nós mesmos. E essas palavras passaram a ser presentes pra mim desde então me fazendo abrir os olhos.
 
-Antes de seguir *** Apresentacao pessoalHistorico de carreira e empresa*** .. história do sysadmin.. eu - Matheus - como usuário de computadores, por considerar o vim, talvez uma das ferramentas essenciais principalmente pro software aberto, o que a olhos de quem é fora da área pode pensar como HARDSKILL eu considero praticamente como uma SOFTSKILL e porque digo isso? Porque cada vez mais ambientado é possível sair facilmente de uma edição de texto para quase um processo de automação, por esse motivo quis muito trazer este conteúdo até vocês mesmo sabendo que existe um risco imenso dessa galera de peso aqui já saber muito mais que essa palestra e eu muito possivelmente possa chover no molhado, contudo o grande ponto chave aqui, é de fato trazermos um olhar a pequenas habilidades na nossa rotina que podem ser consideradas até mesmo empoderadoras no ponto de vista de domínio de máquina, agilidade e estes são os grandes pontos e objetivos aqui.
+Antes de seguir *** Apresentacao pessoalHistorico de carreira e empresa*** .. história do sysadmin.. eu - Matheus - como usuário de computadores, por considerar o VIM, uma das ferramentas mais essenciais do software livre, e que sob um certo olhar pode parecer que ao saber operar o VIM pode ser considerado até uma habilidade técnica, eu hoje o considero praticamente como uma SOFTSKILL e porque digo isso? Porque cada vez mais ambientado é possível sair facilmente de uma edição de texto para quase um processo de automação, por esse motivo quis muito trazer este conteúdo até vocês mesmo sabendo que existe um risco imenso dessa galera de peso aqui já saber muito mais que essa palestra e eu muito possivelmente possa chover no molhado, contudo o grande ponto chave aqui, é de fato trazermos um olhar a pequenas habilidades na nossa rotina que podem ser consideradas até mesmo empoderadoras no ponto de vista de domínio de máquina, agilidade e estes são os grandes pontos e objetivos aqui.
 
 
 Historia do VIM
@@ -53,12 +53,17 @@ SLIDE 03 \/
 -
 # Modos de operacao VIM
 
+<<<<<<< HEAD
 Agora chega de conversa e vou tentar mostrar um pouco do que já dá pra fazer. E um novo disclaimer aqui e reforço, não quero ensinar, muito menos que decorem, quero apenas que entendam a minha mensagem do VIM com produtividade e possam tentar aplica-los para somar ao dia a dia de vocês, então sem decoreba, eu recomendo que treinem o vim até mesmo fora do trabalho para que não se torne uma experiencia frustrante já que você precisa se manter produtivo e eu acho que também tira um pouco da diversão, até mesmo porque a curva de aprendizado é grande principalmente no começo, e certamente haverá momentos que é sim melhor pegar um mouse e clicar do que tentar lembrar um miserável comando.
 
 
 Outra dica que já passo por hora é que não tentem aprender tudo de uma vez, tentem ir colocando em prática cada nova funcionalidade até que ela esteja na sua memória muscular, não tentem aprender várias coisas de uma vez. 
 
 Pensem nesse aprendizado como andar de bicicleta, no começo é o foco em ter o equilíbrio até chegar o ponto da autonomia de ir do ponto X ao ponto Y sem pensar em se manter equilibrado mas sim de performar e chegar até o destino. Etnão minha dica é, tentem ir a cada funcionalidade colocando em prática até aquilo se tornar natural, pois eu acredito que por mais old school que o VIM seja, ele ainda vai sobreviver e certamente vai se fazer presente por muito tempo.
+=======
+Agora chega de conversa e vou tentar mostrar um pouco do que já dá pra fazer. E um novo disclaimer aqui e reforço, não quero ensinar, muito menos que decorem, quero apenas que entendam a minha mensagem do VIM com produtividade e possam tentar aplica-las para somar ao dia a dia de vocês, então sem decoreba, eu recomendo que treinem o vim até mesmo fora do trabalho para que não se torne uma experiencia frustrante já que você precisa se manter produtivo e eu acho que também tira um pouco da diversão, até mesmo porque a curva de aprendizado é grande principalmente no começo, e certamente haverá momentos que é sim melhor pegar um mouse e clicar ou repetir várias vezes uma tecla, do que tentar lembrar um miserável comando. 
+Outra dica que já passo por hora é que não tentem aprender tudo de uma vez, tentem ir colocando em prática cada nova funcionalidade até que ela esteja na sua memória muscular, não tentem aprender várias coisas de uma vez. Pense nesse aprendizado como andar de bicicleta, no começo é o foco em ter o equilíbrio até chegar o ponto da autonomia de ir do ponto X ao ponto Y sem pensar em se manter equilibrado mas sim de performar e chegar até o destino. Então minha dica é, tentem ir a cada funcionalidade colocando em prática até aquilo se tornar natural, pois eu acredito que por mais old school que o VIM seja, ele ainda vai sobreviver e certamente vai se fazer presente por muito tempo.
+>>>>>>> 05a6e788ccb28ae81c8ab791960c42fa20aaaf9f
 E antes que me julguem dizendo que no VSCode é melhor, o que já quero mostrar nesse começo que todo o conteúdo aqui preparei pensando também nas IDEs que já estamos acostumados e que assim possamos pensar na possibilidade de unir o melhor dos dois mundos. Já que existem plugins tanto pro VSCode como outras IDEs para que seja usado todos os comandos do VIM nos seus modos de operação dentro dele.
 
 (EXEMPLO ABRIR O PRÓPRIO VSCODE)
@@ -96,7 +101,6 @@ w/W,e/E,b/B Salta inicio e fim de palavras
 ( ) Salta entre frases
 H,M,L salta na página atual para início meio e fim
 zt, zz, zb Altera a posico de tela
-% para saltar entre métodos --- Combinado com outros comandos (delecao)
 gi para voltar ao ultimo ponto de inserção
 Ctrl+o volta para a ultima linha
 Ctrl+i avanca para o salto
@@ -119,12 +123,12 @@ Modo inserção, aqui nada de diferente dos demais editores, é o modo de digita
 
 ## Edição
 [m salta entre métodos
+% para saltar entre métodos --- Combinado com outros comandos (delecao)
 J - Unir a frase na linha corrente
 Regex com ^,0,$
 ~ Inverte o tamanho do caracter
 guu/gUU muda a linha corrente para maiusculo/minusculo 
 . Repetir a ultima acao
-zz,zb,zt - ajustar a centralizacao que o VIM exibe
 Diferença entre i/I a/A o/O 
 u/U Undo e reverter as mudancas na linhas
 Control+r redo
@@ -133,6 +137,7 @@ Control+r redo
 #comando
 
 - split window :vs :vh
+    vs swagger.json
 :set number
 :set relative number
 :-16,-10co. Copiar o trecho acima aqui :m :d
@@ -141,12 +146,10 @@ Control+r redo
 -
 # interpretacao de teclas
 
-SLIDE 04 \/
 
  Depois de dominado o conceito inicial de como percorrer dentro do VIM, é hora de dar alguns passos adiante algumas combinacoes de teclas, nesse momento a curva de aprendizado começa a seguir o que seria uma pequena ladeira e não mais uma serra. Digo isso pois entendendo parte do conceito que está por trás de cada ação a combinação se fará muito útil. Com isso, na minha opniao, é muito importante vocês terem uma base legal no aprendizado para replicar sem dificuldades daqui por diante. Para mim o que vou falar em breve depois de algum tempo passou a fazer um melhor sentido no meu aprendizado e quero agora compartilhar com vocês.
 O modo normal do VIM como mostrei  antes, aceita os vários comandos como saltar, deletar caractres, copiar, etc aceita conjugado algumas ações que podem ser consideradas as ordens para o VIM ou conversa com o VIM, e essas ordens podem ser facilmente interpretadas pela seguinte sintaxe de ordem de comando para o VIM:
 
-QUANTIDADE | AÇÃO | OBJETIVO
 
 
 <<EXEMPLO VIM ARQUIVO CODE.JS>>
@@ -154,11 +157,11 @@ QUANTIDADE | AÇÃO | OBJETIVO
 
 Exemplo clássio que seria adicionar comentários em várias linhas de texto, como seria uma forma mais produtiva de fazer isso no VIM? Hoje eu executo da seguinte forma:
 
-EXEMPLO Modo visual block, selecionar as linhas, Shift + i, #, ESC e voilá, o VisualCode faz isso? Claro que faz, não quero criar treta aqui, mas imaginem agilizar isso em um acesso remoto ao servidor, lembrem-se do caso da câmera e o carro na rua.
+EXEMPLO Modo visual block Control+V, selecionar as linhas da funcao com ) , Shift + i, #, ESC e voilá, o VisualCode faz isso? Claro que faz, não quero criar treta aqui, mas imaginem agilizar isso em um acesso remoto ao servidor 
 
 Ai agora vamos agora apenas trabalhar com a quantidade: Todos os comandos que acabamos de passar executam uma tarefa ou leva a gente para algum lugar no arquivo, logo muitas dessas podem ser quantificadas e o VIM fazer o trabalho da repetição:
-Inserir 10 vezes a palavra hello world!  10 i/a hello world
 Inserir 20 linhas iniciando com " - 20 o "
+Inserir 10 vezes a palavra hello world!  10 i/a hello world
 Copiar 5 linhas abaixo
 Andar 40 palavras a frente
 
@@ -166,7 +169,13 @@ Andar 40 palavras a frente
 
 cw Deletar uma palavra e já substituir
 
+<<<<<<< HEAD
 <<<<ABRIR EXAMPLE.HTML>>>>>
+=======
+QUANTIDADE | AÇÃO | OBJETIVO
+
+EXEMPLO CÓDIGO HTML
+>>>>>>> 05a6e788ccb28ae81c8ab791960c42fa20aaaf9f
 
 mudar dentro da tag ( cit )
 mudar antes da tag ou palavra ( ct. )
@@ -188,8 +197,11 @@ Pesquisa rápida em arquivo com / (podendo usar o :HLsearch) n/N
 
 
 EXEMPLO NXGIX.Log
+
+:! comando para executar sem sair do vim
 :g/HEAD/d   apagar as linhas com HEAD
 -pegar apenas o IP
+-modo visual selecionar linhas
 :normal WhD 
 -organizar
 :sort 
@@ -197,19 +209,31 @@ EXEMPLO NXGIX.Log
 modo visual
 :!uniq -c
 modo visual
+<<<<<<< HEAD
 !sort -n      -r
+=======
+!sort -n | usar -r
+
+ABRIR swagger.yml
+>>>>>>> 05a6e788ccb28ae81c8ab791960c42fa20aaaf9f
 
 
 :s/a/A altera a primeira instancia e substitui
-:%s/todas/TODAS/g mostrar tambem gc controly control+e
-:s/\<apenas\>/APENAS/gi
+:%s/todas/TODAS/g mostrar tambem gc 
+:s/\<através\>/por meio/gcI USAR O ATRAVES NA PESQUISA COM CASE SENSITIVE
 :29,35 s/palavra/PALAVRA/gi
-:! comando para executar sem sair do vim
 
-:0 read arquivo (usar o ls para demonstrar)
+SAIR do swagger
+
+
+:0 read arquivo ls -lah (usar o ls para demonstrar)
 :r! ls (mostrar os exemplos de grep apenas diretorios)
 
 ## Macros
+
+
+ABRIR LOREM 
+
 
 Marcas
 ma,mb,mc,mw
@@ -225,6 +249,13 @@ Arquivo JSON exemplo
 Mostrar incrementos com Macros
 Simular o mesmo arquivo para transformar em JSON
 { “id”: 1, “name”: “fruta” },
+-Posicao 0
+-Inserir
+-W maiusculo
+-a minusculo
+-inicio da linha
+-linha debaixo
+-q
 
 
 
