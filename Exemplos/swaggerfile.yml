@@ -1,16 +1,16 @@
 swagger: "2.0"
 info:
-  description: "Encontre aqui toda a documentação" 
+  description: "Encontre através daqui toda a documentação" 
   version: "1.0.0"
   title: "Gerenciador de Viagens"
-  termsOfService: "https://github.com/AntonioMontanha/gerenciador-viagens"
+  termsOfService: "https://github.com/gerenciador-viagens"
   contact:
     email: 
   license:
     name: "Apache 2.0"
     url: "http://www.apache.org/licenses/LICENSE-2.0.html"
 host: "localhost:8089"
-basePath: "/"
+basePath: "/":
 tags:
 - name: "auth"
   description: "Mecanismos de autenticação"

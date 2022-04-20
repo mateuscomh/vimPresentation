@@ -1,4 +1,5 @@
-=== Referencial ===
+# Referencial
+---
 
 - Vim tutor
 Ajuda do próprio VIM na jornada de aprendizado 
@@ -24,8 +25,6 @@ Repositório para instalação de plugins
 - Vim Awsome Plugins
 Biblioteca de plugins do VIM
 <https://vimawesome.com/>
-
-
 
 - Upcase 
 Cursos para aprender funções específicas. Tipo Alura
