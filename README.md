@@ -14,5 +14,6 @@ Aqui será encontrado:
 
 #### 
 Apresentado em:
+
 Abr/22 - Talk interna da empresa com os profissionais DevOps (remoto)   
 Jun/22 - Ensino técnico de informática na cidade de Juiz de Fora
