@@ -32,7 +32,6 @@ Conclusão
 - Indicação livro rapido devagar
 - Plugin VS Code
 
-
 === Referencial ===
 
 VIM cheatsheet
@@ -47,7 +46,6 @@ https://vim.fandom.com/wiki/Vim_Tips_Wiki
 
 PlugInstall
 https://github.com/junegunn/vim-Plugins
-
 
 Vim Awsome Plugins
 https://vimawesome.com/
