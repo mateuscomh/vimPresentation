@@ -30,65 +30,54 @@ Me permitam abrir um parenteses, mesmo este não sendo o objetivo da nossa talk 
 Dada as regras e essa importante sinalização o VI que teve sua origem em 1976 e o VIM em 1991 ( estamos falando de um 30tão de responsa ), naquela época existiam apenas computadores centrais, e dada a comparação de hoje principalmente com a época eram computadores muito mais lentos com pequenos Kb de memória, e o acesso a esses computadores eram através do que a gente conhece hoje como TTY (TeleTypeWriter ou Teleprinter), e em 91 Bram Moolenaar cria o VIM. Hoje ele está disponivel a todos os sistemas operacionais e uma massiva quantidade de distro já o conta como parte de sua instalação padrão, foi eleito em 2006 o mais popular entre os leitores do Linux Journal e de acordo com o stack overflow o vim era o editor de texto mais popular em uma briga direta com o EMACS.
 Se talvez alguém ainda quem não conhece, cabe uma rapida intro, o VIM sendo um editor de texto e com enfase no terminal - antes chamado de "terminal burro", o foco está exclusivamente no teclado, é um editor bastante portável e leve. Tem um manual bastante rico, além de um tutorial embutido que ajuda bastante não só quem está começando como também ao pessoal que quer melhorar constantemente. Na minha opnião o VIM tem uma curva de aprendizado gigantesca e, mesmo eu com um razoável tempo de uso e até mesmo preparando esta apresentação incorporei bastante coisa já na minha rotina, contudo, mesmo sendo a primeira vista complexo, vamos em doses homeopáticas fixando as algumas teclas, atalhos e até mesmo plugins o que fica no final é apenas o arrependimento de não saber de certas coisas antes.
 
-Diferenças VIM e VI:
-GUI
-RegEx
-SpellCheck
-Diff mode
-Unicode
-Suporte a scripts e plugins
-Syntax Highlights
+ __Diferenças VIM e VI:__
+- GUI
+- RegEx
+- SpellCheck
+- Diff mode
+- Unicode
+- Suporte a scripts e plugins
+- Syntax Highlights
 
 Falei recentemente de portabilidade e colocando na conta, este é um de vários fatores que me motivaram nessa talk, uma vez que ele está presente nativamente em várias distribuições como disse antes, ele é extremamente leve tanto em tamanho quanto na irrelevante necessidade de poder de processamento ( logicamente sem considerar plugins e addons ). 
 
 Logo quando falamos em editor de textos, temos uma infinidade e todos eles tem a funcao básica que é a de editar e salvar um texto, até mesmo o VSCode que lidamos no dia a dia faz isso de forma única, mas trazendo uma analogia ao nosso cotidiano, eu já quero trazer um exemplo que vai servir de analogia pra essa talk... 
 
-você está na rua com sua mochila e uma câmera de alta definição nela, até que de repente, um belo exemplar de carro dos seus sonhos passa ao seu lado, o que vai ser mais fácil usar, seu celular que certamente está na sua mão com aquela câmera razoável, ou tirar e prepara a câmera, foco, exposição para fotografar aquele momento? Esse é o ponto, qual seria a melhor câmera? Já que o lance está no que você pode fazer ali rapidamente para atender aquele problema específico, esta seria a mesma câmera - este é o ponto, é o que você tem em mão, e quantas vezes não foi necessário analisar um log, editar um simples arquivo em um servidor ou até mesmo um container? Hoje apesar de termos uma volatilidade muito grande de dados, junto da facilidade de acesso, um editor simples e minimalista pode nos ajudar não só na edição como em vários outros aspectos.
+Você está na rua com sua mochila e uma câmera de alta definição nela, até que de repente, um belo exemplar de carro dos seus sonhos passa ao seu lado, o que vai ser mais fácil usar, seu celular que certamente está na sua mão com aquela câmera razoável, ou tirar e prepara a câmera, foco, exposição para fotografar aquele momento? Esse é o ponto, qual seria a melhor câmera? Já que o lance está no que você pode fazer ali rapidamente para atender aquele problema específico, esta seria a mesma câmera - este é o ponto, é o que você tem em mão, e quantas vezes não foi necessário analisar um log, editar um simples arquivo em um servidor ou até mesmo um container? Hoje apesar de termos uma volatilidade muito grande de dados, junto da facilidade de acesso, um editor simples e minimalista pode nos ajudar não só na edição como em vários outros aspectos.
 
 E assim como o VSCode o VIM conta também com muitos plugins, a comunidade do VIM é enorme e existem sites e fóruns destinados ao nosso amigo, além de tudo ainda é old school, o que por si só já é bem legal... há momentos confesso que quero testar tanto plugin que alguns ficam num limbo esperando serem usados. E nessa hora que é muito legal pensarmos na infraestrutura como código, pois o vim possui seu arquivo de configuração - que vou falar em breve sobre ele 
 
 SLIDE 03 \/
 
-
--
 # Modos de operacao VIM
 
-<<<<<<< HEAD
 Agora chega de conversa e vou tentar mostrar um pouco do que já dá pra fazer. E um novo disclaimer aqui e reforço, não quero ensinar, muito menos que decorem, quero apenas que entendam a minha mensagem do VIM com produtividade e possam tentar aplica-los para somar ao dia a dia de vocês, então sem decoreba, eu recomendo que treinem o vim até mesmo fora do trabalho para que não se torne uma experiencia frustrante já que você precisa se manter produtivo e eu acho que também tira um pouco da diversão, até mesmo porque a curva de aprendizado é grande principalmente no começo, e certamente haverá momentos que é sim melhor pegar um mouse e clicar do que tentar lembrar um miserável comando.
-
 
 Outra dica que já passo por hora é que não tentem aprender tudo de uma vez, tentem ir colocando em prática cada nova funcionalidade até que ela esteja na sua memória muscular, não tentem aprender várias coisas de uma vez. 
 
 Pensem nesse aprendizado como andar de bicicleta, no começo é o foco em ter o equilíbrio até chegar o ponto da autonomia de ir do ponto X ao ponto Y sem pensar em se manter equilibrado mas sim de performar e chegar até o destino. Etnão minha dica é, tentem ir a cada funcionalidade colocando em prática até aquilo se tornar natural, pois eu acredito que por mais old school que o VIM seja, ele ainda vai sobreviver e certamente vai se fazer presente por muito tempo.
-=======
-Agora chega de conversa e vou tentar mostrar um pouco do que já dá pra fazer. E um novo disclaimer aqui e reforço, não quero ensinar, muito menos que decorem, quero apenas que entendam a minha mensagem do VIM com produtividade e possam tentar aplica-las para somar ao dia a dia de vocês, então sem decoreba, eu recomendo que treinem o vim até mesmo fora do trabalho para que não se torne uma experiencia frustrante já que você precisa se manter produtivo e eu acho que também tira um pouco da diversão, até mesmo porque a curva de aprendizado é grande principalmente no começo, e certamente haverá momentos que é sim melhor pegar um mouse e clicar ou repetir várias vezes uma tecla, do que tentar lembrar um miserável comando. 
-Outra dica que já passo por hora é que não tentem aprender tudo de uma vez, tentem ir colocando em prática cada nova funcionalidade até que ela esteja na sua memória muscular, não tentem aprender várias coisas de uma vez. Pense nesse aprendizado como andar de bicicleta, no começo é o foco em ter o equilíbrio até chegar o ponto da autonomia de ir do ponto X ao ponto Y sem pensar em se manter equilibrado mas sim de performar e chegar até o destino. Então minha dica é, tentem ir a cada funcionalidade colocando em prática até aquilo se tornar natural, pois eu acredito que por mais old school que o VIM seja, ele ainda vai sobreviver e certamente vai se fazer presente por muito tempo.
->>>>>>> 05a6e788ccb28ae81c8ab791960c42fa20aaaf9f
+
 E antes que me julguem dizendo que no VSCode é melhor, o que já quero mostrar nesse começo que todo o conteúdo aqui preparei pensando também nas IDEs que já estamos acostumados e que assim possamos pensar na possibilidade de unir o melhor dos dois mundos. Já que existem plugins tanto pro VSCode como outras IDEs para que seja usado todos os comandos do VIM nos seus modos de operação dentro dele.
 
 (EXEMPLO ABRIR O PRÓPRIO VSCODE)
 
-
 * apresentar a tela principal do VIM nos modos com plugins e sem plugins
 (EXEMPLO DEIXAR O ITERM COM O VIM)
 
-São ao total 12 modos de operacao, não irei passar por todos, mas vou martelar bastante sobre os mais básicos.
+São ao todo 12 modos de operacao, não irei passar por todos, mas vou martelar bastante sobre os mais básicos.
 
 E antes de apresentar os modos uma coisa que muita gente já passou, inclusive eu é: como sair do VIM? existem algumas maneiras e cada uma tem um porque, serei breve:
 
 O primeiro e principal é o modo de normal:
 
-
-normal mode - é o estado default do vim/vim e através dele conseguimos nos mover entre todos os demais modos e retornamos ao modo normal sempre que apertamos ESC, este é certamente o que se mais usa e trabalha dentro do vim e é aqui que a mágica e os super poderes acontecem.
+__normal mode__ - é o estado default do vim/vim e através dele conseguimos nos mover entre todos os demais modos e retornamos ao modo normal sempre que apertamos ESC, este é certamente o que se mais usa e trabalha dentro do vim e é aqui que a mágica e os super poderes acontecem.
 
 (ABRIR O VIM VAZIO)
 
 Podemos muitas vezes deixar de reescrever textos com simples comandos e combinacoes de teclas, e é aqui que a coisa começa a ficar ainda mais interessante. O que temos aqui agora nada mais é que um artista olhando para o seu quadro em branco com a imaginação de onde se quer chegar e agora podemos refletir no VIM desta forma.
 
-
 ## Navegação:
 (EXEMPLO ABRIR O LOREM)
-
 
 h,j,k,l Importancia da navegacao 
 gg / G Inicio e fim de arquivo
@@ -114,25 +103,23 @@ Tornar um texto maiusculo: Selecionar o texto ou linha e digitar U/u ou inverter
 visual line - Shift + v - Apertando o/O para inverter a selecao
 Block visual - Control + v
 
-##inserção
+## inserção
 Modo inserção, aqui nada de diferente dos demais editores, é o modo de digitação tradicional contudo, aliado ao modo normal, comandos podem ser adiantados aqui e ajudando bastante na efetivimdade da edição do arquivo/texto
-
 
 (EXEMPLO VIMD PACKAGE.JSON)
 
-
 ## Edição
-[m salta entre métodos
-% para saltar entre métodos --- Combinado com outros comandos (delecao)
-J - Unir a frase na linha corrente
-Regex com ^,0,$
-~ Inverte o tamanho do caracter
-guu/gUU muda a linha corrente para maiusculo/minusculo 
-. Repetir a ultima acao
-Diferença entre i/I a/A o/O 
-u/U Undo e reverter as mudancas na linhas
-Control+r redo
-:later 30m / earlier 30m
+- [m salta entre métodos
+- % para saltar entre métodos --- Combinado com outros comandos (delecao)
+- J - Unir a frase na linha corrente
+- Regex com ^,0,$
+- ~ Inverte o tamanho do caracter
+- guu/gUU muda a linha corrente para maiusculo/minusculo 
+- . Repetir a ultima acao
+- Diferença entre i/I a/A o/O 
+- u/U Undo e reverter as mudancas na linhas
+- Control+r redo
+- :later 30m / earlier 30m
 
 #comando
 
@@ -140,6 +127,7 @@ Control+r redo
     vs swagger.json
 :set number
 :set relative number
+:5,10co.+ #Copiar um intervalo de linhas (por exemplo, linhas 5 a 10) e colar abaixo da linha atual:
 :-16,-10co. Copiar o trecho acima aqui :m :d
 :syntax on
 
@@ -157,25 +145,20 @@ O modo normal do VIM como mostrei  antes, aceita os vários comandos como saltar
 
 Exemplo clássio que seria adicionar comentários em várias linhas de texto, como seria uma forma mais produtiva de fazer isso no VIM? Hoje eu executo da seguinte forma:
 
-EXEMPLO Modo visual block Control+V, selecionar as linhas da funcao com ) , Shift + i, #, ESC e voilá, o VisualCode faz isso? Claro que faz, não quero criar treta aqui, mas imaginem agilizar isso em um acesso remoto ao servidor 
+##### EXEMPLO Modo visual block Control+V, selecionar as linhas da funcao com ) , Shift + i, //, ESC e voilá, o VisualCode faz isso? Claro que faz, não quero criar treta aqui, mas imaginem agilizar isso em um acesso remoto ao servidor 
 
 Ai agora vamos agora apenas trabalhar com a quantidade: Todos os comandos que acabamos de passar executam uma tarefa ou leva a gente para algum lugar no arquivo, logo muitas dessas podem ser quantificadas e o VIM fazer o trabalho da repetição:
-Inserir 20 linhas iniciando com " - 20 o "
-Inserir 10 vezes a palavra hello world!  10 i/a hello world
-Copiar 5 linhas abaixo
-Andar 40 palavras a frente
+- Inserir 20 linhas iniciando com traço " 20 o - "
+- Inserir 10 vezes a palavra hello world!  "10 i/a hello world"
+- Copiar 5 linhas abaixo "5yj" e colar "p"
+- Andar 40 palavras a frente
+- 3db Deletar 3 palavras do cursor pra tras 3db
+- cw Deletar uma palavra e já substituir
 
-3db Deletar 3 palavras do cursor pra tras 3db
-
-cw Deletar uma palavra e já substituir
-
-<<<<<<< HEAD
-<<<<ABRIR EXAMPLE.HTML>>>>>
-=======
+ABRIR EXAMPLE.HTML
 QUANTIDADE | AÇÃO | OBJETIVO
 
 EXEMPLO CÓDIGO HTML
->>>>>>> 05a6e788ccb28ae81c8ab791960c42fa20aaaf9f
 
 mudar dentro da tag ( cit )
 mudar antes da tag ou palavra ( ct. )
@@ -196,44 +179,42 @@ Control+Y para repetir a linha de cima
 Pesquisa rápida em arquivo com / (podendo usar o :HLsearch) n/N
 
 
-EXEMPLO NXGIX.Log
+#### EXEMPLO NXGIX.Log
+(Pegar e ordenar em um arquivo nginx apenas os IPs que fizram GET e classificar por ordem de quantidade de acessos)
 
-:! comando para executar sem sair do vim
-:g/HEAD/d   apagar as linhas com HEAD
--pegar apenas o IP
--modo visual selecionar linhas
-:normal WhD 
--organizar
-:sort 
--repetidos
-modo visual
-:!uniq -c
-modo visual
-<<<<<<< HEAD
-!sort -n      -r
-=======
-!sort -n | usar -r
+1- Classificar e filtrar apenas os ips com GET
+- modo comando (:g/HEAD/d   apagar as linhas com HEAD)
+
+2- pegar apenas o IP
+- modo visual selecionar linhas (shift+v + G)
+- modo comando (:normal WhD)
+ 
+ 3- Organinzar os ips numericamente
+- modo comando (:sort)
+  
+4- remover repetidos e organizar
+- modo visual selecionar linhas (shift+v + G)
+- modo comando (:!uniq -c)
+- modo visual selecionar linhas (shift+v + G)
+- modo comando (!sort -nr)
 
 ABRIR swagger.yml
->>>>>>> 05a6e788ccb28ae81c8ab791960c42fa20aaaf9f
-
 
 :s/a/A altera a primeira instancia e substitui
 :%s/todas/TODAS/g mostrar tambem gc 
-:s/\<através\>/por meio/gcI USAR O ATRAVES NA PESQUISA COM CASE SENSITIVE
-:29,35 s/palavra/PALAVRA/gi
-
-SAIR do swagger
+:29,35 s/:/;/gi  (i representa case sensitive)
 
 
-:0 read arquivo ls -lah (usar o ls para demonstrar)
+Outros exemplos
+- inserir o conteudo de arquivo na posicao 0 do arquivo atual
+:0 read nome_de_arquivo
+- Inserir ls do raiz dentro do arquivo
 :r! ls (mostrar os exemplos de grep apenas diretorios)
 
+SAIR do swagger0
 ## Macros
 
-
 ABRIR LOREM 
-
 
 Marcas
 ma,mb,mc,mw
@@ -256,8 +237,6 @@ Simular o mesmo arquivo para transformar em JSON
 -inicio da linha
 -linha debaixo
 -q
-
-
 
 # o arquivo VIM
 
