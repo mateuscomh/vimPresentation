@@ -3,6 +3,8 @@
 - Vim tutor
 Ajuda do próprio VIM na jornada de aprendizado 
 $vimtutor
+- 1os passos e movimentação
+<https://www.vim-hero.com>
 
 - Cheatsheets 1
 <https://devhints.io/vim>
